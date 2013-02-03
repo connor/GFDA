@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B311376016BE4734001AF532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311375F16BE4734001AF532 /* UIKit.framework */; };
+		B311376216BE4734001AF532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311376116BE4734001AF532 /* Foundation.framework */; };
+		B311376416BE4734001AF532 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311376316BE4734001AF532 /* CoreGraphics.framework */; };
+		B311376A16BE4734001AF532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B311376816BE4734001AF532 /* InfoPlist.strings */; };
+		B311376C16BE4734001AF532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B311376B16BE4734001AF532 /* main.m */; };
+		B311377016BE4734001AF532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B311376F16BE4734001AF532 /* AppDelegate.m */; };
+		B311377216BE4734001AF532 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B311377116BE4734001AF532 /* Default.png */; };
+		B311377416BE4734001AF532 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B311377316BE4734001AF532 /* Default@2x.png */; };
+		B311377616BE4734001AF532 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B311377516BE4734001AF532 /* Default-568h@2x.png */; };
+		B311377916BE4734001AF532 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B311377716BE4734001AF532 /* MainStoryboard_iPhone.storyboard */; };
+		B311377C16BE4734001AF532 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B311377A16BE4734001AF532 /* MainStoryboard_iPad.storyboard */; };
+		B311377F16BE4734001AF532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B311377E16BE4734001AF532 /* ViewController.m */; };
+		B311378716BE4734001AF532 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311378616BE4734001AF532 /* SenTestingKit.framework */; };
+		B311378816BE4734001AF532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311375F16BE4734001AF532 /* UIKit.framework */; };
+		B311378916BE4734001AF532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311376116BE4734001AF532 /* Foundation.framework */; };
+		B311379116BE4734001AF532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B311378F16BE4734001AF532 /* InfoPlist.strings */; };
+		B311379416BE4734001AF532 /* Good_Fucking_Design_AdviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B311379316BE4734001AF532 /* Good_Fucking_Design_AdviceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B311378A16BE4734001AF532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B311375216BE4734001AF532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B311375A16BE4734001AF532;
+			remoteInfo = "Good Fucking Design Advice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B311375B16BE4734001AF532 /* Good Fucking Design Advice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good Fucking Design Advice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B311375F16BE4734001AF532 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B311376116BE4734001AF532 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B311376316BE4734001AF532 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B311376716BE4734001AF532 /* Good Fucking Design Advice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Good Fucking Design Advice-Info.plist"; sourceTree = "<group>"; };
+		B311376916BE4734001AF532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B311376B16BE4734001AF532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B311376D16BE4734001AF532 /* Good Fucking Design Advice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Good Fucking Design Advice-Prefix.pch"; sourceTree = "<group>"; };
+		B311376E16BE4734001AF532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B311376F16BE4734001AF532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B311377116BE4734001AF532 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B311377316BE4734001AF532 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B311377516BE4734001AF532 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B311377816BE4734001AF532 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B311377B16BE4734001AF532 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B311377D16BE4734001AF532 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B311377E16BE4734001AF532 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B311378516BE4734001AF532 /* Good Fucking Design AdviceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Good Fucking Design AdviceTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B311378616BE4734001AF532 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B311378E16BE4734001AF532 /* Good Fucking Design AdviceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Good Fucking Design AdviceTests-Info.plist"; sourceTree = "<group>"; };
+		B311379016BE4734001AF532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B311379216BE4734001AF532 /* Good_Fucking_Design_AdviceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Good_Fucking_Design_AdviceTests.h; sourceTree = "<group>"; };
+		B311379316BE4734001AF532 /* Good_Fucking_Design_AdviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Good_Fucking_Design_AdviceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B311375816BE4734001AF532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B311376016BE4734001AF532 /* UIKit.framework in Frameworks */,
+				B311376216BE4734001AF532 /* Foundation.framework in Frameworks */,
+				B311376416BE4734001AF532 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311378116BE4734001AF532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B311378716BE4734001AF532 /* SenTestingKit.framework in Frameworks */,
+				B311378816BE4734001AF532 /* UIKit.framework in Frameworks */,
+				B311378916BE4734001AF532 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B311375016BE4734001AF532 = {
+			isa = PBXGroup;
+			children = (
+				B311376516BE4734001AF532 /* Good Fucking Design Advice */,
+				B311378C16BE4734001AF532 /* Good Fucking Design AdviceTests */,
+				B311375E16BE4734001AF532 /* Frameworks */,
+				B311375C16BE4734001AF532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B311375C16BE4734001AF532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B311375B16BE4734001AF532 /* Good Fucking Design Advice.app */,
+				B311378516BE4734001AF532 /* Good Fucking Design AdviceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B311375E16BE4734001AF532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B311375F16BE4734001AF532 /* UIKit.framework */,
+				B311376116BE4734001AF532 /* Foundation.framework */,
+				B311376316BE4734001AF532 /* CoreGraphics.framework */,
+				B311378616BE4734001AF532 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B311376516BE4734001AF532 /* Good Fucking Design Advice */ = {
+			isa = PBXGroup;
+			children = (
+				B311376E16BE4734001AF532 /* AppDelegate.h */,
+				B311376F16BE4734001AF532 /* AppDelegate.m */,
+				B311377716BE4734001AF532 /* MainStoryboard_iPhone.storyboard */,
+				B311377A16BE4734001AF532 /* MainStoryboard_iPad.storyboard */,
+				B311377D16BE4734001AF532 /* ViewController.h */,
+				B311377E16BE4734001AF532 /* ViewController.m */,
+				B311376616BE4734001AF532 /* Supporting Files */,
+			);
+			path = "Good Fucking Design Advice";
+			sourceTree = "<group>";
+		};
+		B311376616BE4734001AF532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B311376716BE4734001AF532 /* Good Fucking Design Advice-Info.plist */,
+				B311376816BE4734001AF532 /* InfoPlist.strings */,
+				B311376B16BE4734001AF532 /* main.m */,
+				B311376D16BE4734001AF532 /* Good Fucking Design Advice-Prefix.pch */,
+				B311377116BE4734001AF532 /* Default.png */,
+				B311377316BE4734001AF532 /* Default@2x.png */,
+				B311377516BE4734001AF532 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B311378C16BE4734001AF532 /* Good Fucking Design AdviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				B311379216BE4734001AF532 /* Good_Fucking_Design_AdviceTests.h */,
+				B311379316BE4734001AF532 /* Good_Fucking_Design_AdviceTests.m */,
+				B311378D16BE4734001AF532 /* Supporting Files */,
+			);
+			path = "Good Fucking Design AdviceTests";
+			sourceTree = "<group>";
+		};
+		B311378D16BE4734001AF532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B311378E16BE4734001AF532 /* Good Fucking Design AdviceTests-Info.plist */,
+				B311378F16BE4734001AF532 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B311375A16BE4734001AF532 /* Good Fucking Design Advice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B311379716BE4734001AF532 /* Build configuration list for PBXNativeTarget "Good Fucking Design Advice" */;
+			buildPhases = (
+				B311375716BE4734001AF532 /* Sources */,
+				B311375816BE4734001AF532 /* Frameworks */,
+				B311375916BE4734001AF532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Good Fucking Design Advice";
+			productName = "Good Fucking Design Advice";
+			productReference = B311375B16BE4734001AF532 /* Good Fucking Design Advice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B311378416BE4734001AF532 /* Good Fucking Design AdviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B311379A16BE4734001AF532 /* Build configuration list for PBXNativeTarget "Good Fucking Design AdviceTests" */;
+			buildPhases = (
+				B311378016BE4734001AF532 /* Sources */,
+				B311378116BE4734001AF532 /* Frameworks */,
+				B311378216BE4734001AF532 /* Resources */,
+				B311378316BE4734001AF532 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B311378B16BE4734001AF532 /* PBXTargetDependency */,
+			);
+			name = "Good Fucking Design AdviceTests";
+			productName = "Good Fucking Design AdviceTests";
+			productReference = B311378516BE4734001AF532 /* Good Fucking Design AdviceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B311375216BE4734001AF532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Connor Montgomery";
+			};
+			buildConfigurationList = B311375516BE4734001AF532 /* Build configuration list for PBXProject "Good Fucking Design Advice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B311375016BE4734001AF532;
+			productRefGroup = B311375C16BE4734001AF532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B311375A16BE4734001AF532 /* Good Fucking Design Advice */,
+				B311378416BE4734001AF532 /* Good Fucking Design AdviceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B311375916BE4734001AF532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B311376A16BE4734001AF532 /* InfoPlist.strings in Resources */,
+				B311377216BE4734001AF532 /* Default.png in Resources */,
+				B311377416BE4734001AF532 /* Default@2x.png in Resources */,
+				B311377616BE4734001AF532 /* Default-568h@2x.png in Resources */,
+				B311377916BE4734001AF532 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B311377C16BE4734001AF532 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311378216BE4734001AF532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B311379116BE4734001AF532 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B311378316BE4734001AF532 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B311375716BE4734001AF532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B311376C16BE4734001AF532 /* main.m in Sources */,
+				B311377016BE4734001AF532 /* AppDelegate.m in Sources */,
+				B311377F16BE4734001AF532 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311378016BE4734001AF532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B311379416BE4734001AF532 /* Good_Fucking_Design_AdviceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B311378B16BE4734001AF532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B311375A16BE4734001AF532 /* Good Fucking Design Advice */;
+			targetProxy = B311378A16BE4734001AF532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B311376816BE4734001AF532 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B311376916BE4734001AF532 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B311377716BE4734001AF532 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B311377816BE4734001AF532 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B311377A16BE4734001AF532 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B311377B16BE4734001AF532 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B311378F16BE4734001AF532 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B311379016BE4734001AF532 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B311379516BE4734001AF532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B311379616BE4734001AF532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B311379816BE4734001AF532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Good Fucking Design Advice/Good Fucking Design Advice-Prefix.pch";
+				INFOPLIST_FILE = "Good Fucking Design Advice/Good Fucking Design Advice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B311379916BE4734001AF532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Good Fucking Design Advice/Good Fucking Design Advice-Prefix.pch";
+				INFOPLIST_FILE = "Good Fucking Design Advice/Good Fucking Design Advice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B311379B16BE4734001AF532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Good Fucking Design Advice.app/Good Fucking Design Advice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Good Fucking Design Advice/Good Fucking Design Advice-Prefix.pch";
+				INFOPLIST_FILE = "Good Fucking Design AdviceTests/Good Fucking Design AdviceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B311379C16BE4734001AF532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Good Fucking Design Advice.app/Good Fucking Design Advice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Good Fucking Design Advice/Good Fucking Design Advice-Prefix.pch";
+				INFOPLIST_FILE = "Good Fucking Design AdviceTests/Good Fucking Design AdviceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B311375516BE4734001AF532 /* Build configuration list for PBXProject "Good Fucking Design Advice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B311379516BE4734001AF532 /* Debug */,
+				B311379616BE4734001AF532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B311379716BE4734001AF532 /* Build configuration list for PBXNativeTarget "Good Fucking Design Advice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B311379816BE4734001AF532 /* Debug */,
+				B311379916BE4734001AF532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B311379A16BE4734001AF532 /* Build configuration list for PBXNativeTarget "Good Fucking Design AdviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B311379B16BE4734001AF532 /* Debug */,
+				B311379C16BE4734001AF532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B311375216BE4734001AF532 /* Project object */;
+}
