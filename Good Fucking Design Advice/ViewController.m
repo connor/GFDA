@@ -33,7 +33,15 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         
-        NSString *text = [JSON valueForKeyPath:@"new_advice"];
+        NSMutableString *text = [[NSMutableString alloc] initWithString:[JSON valueForKeyPath:@"new_advice"]];
+
+        NSString *pattern = @"\\<span.*\\>";
+        
+        NSRegularExpression *regex = [NSRegularExpression
+                                      regularExpressionWithPattern:pattern options:0 error:nil];
+        NSString *replace = @"fucking";
+        [regex replaceMatchesInString:text options:0 range:NSMakeRange(0, text.length) withTemplate:replace];
+        
         [theFuckingText setText:text];
     } failure:nil];
     

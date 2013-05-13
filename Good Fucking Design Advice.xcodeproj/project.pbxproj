@@ -28,6 +28,7 @@
 		B31137A016BE4886001AF532 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B311379F16BE4886001AF532 /* Default-568h@2x.png */; };
 		B31137A216BE488E001AF532 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B31137A116BE488E001AF532 /* Default.png */; };
 		B31137A416BE48B6001AF532 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B31137A316BE48B6001AF532 /* Default@2x.png */; };
+		B3421C9B17408D2500650EB4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3421C9A17408D2500650EB4 /* libxml2.dylib */; };
 		B39DBE1516CA264400FEF5BC /* GFDATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B39DBE1416CA264400FEF5BC /* GFDATextView.m */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		B311379F16BE4886001AF532 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B31137A116BE488E001AF532 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B31137A316BE48B6001AF532 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B3421C9A17408D2500650EB4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		B39DBE1316CA264400FEF5BC /* GFDATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDATextView.h; sourceTree = "<group>"; };
 		B39DBE1416CA264400FEF5BC /* GFDATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDATextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3421C9B17408D2500650EB4 /* libxml2.dylib in Frameworks */,
 				B311376016BE4734001AF532 /* UIKit.framework in Frameworks */,
 				B311376216BE4734001AF532 /* Foundation.framework in Frameworks */,
 				B311376416BE4734001AF532 /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +105,7 @@
 		B311375016BE4734001AF532 = {
 			isa = PBXGroup;
 			children = (
+				B3421C9A17408D2500650EB4 /* libxml2.dylib */,
 				B39DBE1316CA264400FEF5BC /* GFDATextView.h */,
 				B39DBE1416CA264400FEF5BC /* GFDATextView.m */,
 				B31137A316BE48B6001AF532 /* Default@2x.png */,
@@ -423,6 +427,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Good Fucking Design Advice/Good Fucking Design Advice-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_HEADERS_SEARCH_PATHS}",
+					"\"/usr/include/libxml2\"",
+				);
 				INFOPLIST_FILE = "Good Fucking Design Advice/Good Fucking Design Advice-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -436,6 +444,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Good Fucking Design Advice/Good Fucking Design Advice-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_HEADERS_SEARCH_PATHS}",
+					"\"/usr/include/libxml2\"",
+				);
 				INFOPLIST_FILE = "Good Fucking Design Advice/Good Fucking Design Advice-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
