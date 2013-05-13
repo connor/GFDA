@@ -7,12 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "AFHTTPClient.h"
+#import "AFJSONRequestOperation.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSURL *url = [NSURL URLWithString:@"http://goodfuckingdesignadvice.com/refresh-advice.php"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+        NSLog(@"The fucking advice is: %@", [JSON valueForKeyPath:@"new_advice"]);
+    } failure:nil];
+    
+    [operation start];
     return YES;
 }
 							

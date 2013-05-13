@@ -14,6 +14,8 @@
 
 @implementation ViewController
 
+@synthesize theFuckingText;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

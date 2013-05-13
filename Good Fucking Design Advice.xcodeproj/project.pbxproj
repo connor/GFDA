@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975D6F3CBF3F45A29A4F443E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B1A8A7CC0F48BEADE9A238 /* libPods.a */; };
 		B311376016BE4734001AF532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311375F16BE4734001AF532 /* UIKit.framework */; };
 		B311376216BE4734001AF532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311376116BE4734001AF532 /* Foundation.framework */; };
 		B311376416BE4734001AF532 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311376316BE4734001AF532 /* CoreGraphics.framework */; };
@@ -17,13 +18,17 @@
 		B311377416BE4734001AF532 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B311377316BE4734001AF532 /* Default@2x.png */; };
 		B311377616BE4734001AF532 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B311377516BE4734001AF532 /* Default-568h@2x.png */; };
 		B311377916BE4734001AF532 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B311377716BE4734001AF532 /* MainStoryboard_iPhone.storyboard */; };
-		B311377C16BE4734001AF532 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B311377A16BE4734001AF532 /* MainStoryboard_iPad.storyboard */; };
 		B311377F16BE4734001AF532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B311377E16BE4734001AF532 /* ViewController.m */; };
 		B311378716BE4734001AF532 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311378616BE4734001AF532 /* SenTestingKit.framework */; };
 		B311378816BE4734001AF532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311375F16BE4734001AF532 /* UIKit.framework */; };
 		B311378916BE4734001AF532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B311376116BE4734001AF532 /* Foundation.framework */; };
 		B311379116BE4734001AF532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B311378F16BE4734001AF532 /* InfoPlist.strings */; };
 		B311379416BE4734001AF532 /* Good_Fucking_Design_AdviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B311379316BE4734001AF532 /* Good_Fucking_Design_AdviceTests.m */; };
+		B311379E16BE4882001AF532 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = B311379D16BE4882001AF532 /* splash.png */; };
+		B31137A016BE4886001AF532 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B311379F16BE4886001AF532 /* Default-568h@2x.png */; };
+		B31137A216BE488E001AF532 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B31137A116BE488E001AF532 /* Default.png */; };
+		B31137A416BE48B6001AF532 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B31137A316BE48B6001AF532 /* Default@2x.png */; };
+		B39DBE1516CA264400FEF5BC /* GFDATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B39DBE1416CA264400FEF5BC /* GFDATextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32B1A8A7CC0F48BEADE9A238 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC082049FB74FEA9D03C1F2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		B311375B16BE4734001AF532 /* Good Fucking Design Advice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good Fucking Design Advice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B311375F16BE4734001AF532 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B311376116BE4734001AF532 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,7 +58,6 @@
 		B311377316BE4734001AF532 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B311377516BE4734001AF532 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B311377816BE4734001AF532 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		B311377B16BE4734001AF532 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		B311377D16BE4734001AF532 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B311377E16BE4734001AF532 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B311378516BE4734001AF532 /* Good Fucking Design AdviceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Good Fucking Design AdviceTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +66,12 @@
 		B311379016BE4734001AF532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B311379216BE4734001AF532 /* Good_Fucking_Design_AdviceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Good_Fucking_Design_AdviceTests.h; sourceTree = "<group>"; };
 		B311379316BE4734001AF532 /* Good_Fucking_Design_AdviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Good_Fucking_Design_AdviceTests.m; sourceTree = "<group>"; };
+		B311379D16BE4882001AF532 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		B311379F16BE4886001AF532 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B31137A116BE488E001AF532 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B31137A316BE48B6001AF532 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B39DBE1316CA264400FEF5BC /* GFDATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDATextView.h; sourceTree = "<group>"; };
+		B39DBE1416CA264400FEF5BC /* GFDATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDATextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 				B311376016BE4734001AF532 /* UIKit.framework in Frameworks */,
 				B311376216BE4734001AF532 /* Foundation.framework in Frameworks */,
 				B311376416BE4734001AF532 /* CoreGraphics.framework in Frameworks */,
+				975D6F3CBF3F45A29A4F443E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +102,17 @@
 		B311375016BE4734001AF532 = {
 			isa = PBXGroup;
 			children = (
+				B39DBE1316CA264400FEF5BC /* GFDATextView.h */,
+				B39DBE1416CA264400FEF5BC /* GFDATextView.m */,
+				B31137A316BE48B6001AF532 /* Default@2x.png */,
+				B31137A116BE488E001AF532 /* Default.png */,
+				B311379F16BE4886001AF532 /* Default-568h@2x.png */,
+				B311379D16BE4882001AF532 /* splash.png */,
 				B311376516BE4734001AF532 /* Good Fucking Design Advice */,
 				B311378C16BE4734001AF532 /* Good Fucking Design AdviceTests */,
 				B311375E16BE4734001AF532 /* Frameworks */,
 				B311375C16BE4734001AF532 /* Products */,
+				3BC082049FB74FEA9D03C1F2 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +132,7 @@
 				B311376116BE4734001AF532 /* Foundation.framework */,
 				B311376316BE4734001AF532 /* CoreGraphics.framework */,
 				B311378616BE4734001AF532 /* SenTestingKit.framework */,
+				32B1A8A7CC0F48BEADE9A238 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,7 +143,6 @@
 				B311376E16BE4734001AF532 /* AppDelegate.h */,
 				B311376F16BE4734001AF532 /* AppDelegate.m */,
 				B311377716BE4734001AF532 /* MainStoryboard_iPhone.storyboard */,
-				B311377A16BE4734001AF532 /* MainStoryboard_iPad.storyboard */,
 				B311377D16BE4734001AF532 /* ViewController.h */,
 				B311377E16BE4734001AF532 /* ViewController.m */,
 				B311376616BE4734001AF532 /* Supporting Files */,
@@ -173,6 +193,7 @@
 				B311375716BE4734001AF532 /* Sources */,
 				B311375816BE4734001AF532 /* Frameworks */,
 				B311375916BE4734001AF532 /* Resources */,
+				F3489FF07AB949BAADF9DAA0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,7 +260,10 @@
 				B311377416BE4734001AF532 /* Default@2x.png in Resources */,
 				B311377616BE4734001AF532 /* Default-568h@2x.png in Resources */,
 				B311377916BE4734001AF532 /* MainStoryboard_iPhone.storyboard in Resources */,
-				B311377C16BE4734001AF532 /* MainStoryboard_iPad.storyboard in Resources */,
+				B311379E16BE4882001AF532 /* splash.png in Resources */,
+				B31137A016BE4886001AF532 /* Default-568h@2x.png in Resources */,
+				B31137A216BE488E001AF532 /* Default.png in Resources */,
+				B31137A416BE48B6001AF532 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +291,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		F3489FF07AB949BAADF9DAA0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -277,6 +315,7 @@
 				B311376C16BE4734001AF532 /* main.m in Sources */,
 				B311377016BE4734001AF532 /* AppDelegate.m in Sources */,
 				B311377F16BE4734001AF532 /* ViewController.m in Sources */,
+				B39DBE1516CA264400FEF5BC /* GFDATextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,14 +352,6 @@
 				B311377816BE4734001AF532 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		B311377A16BE4734001AF532 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B311377B16BE4734001AF532 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		B311378F16BE4734001AF532 /* InfoPlist.strings */ = {
@@ -388,22 +419,26 @@
 		};
 		B311379816BE4734001AF532 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC082049FB74FEA9D03C1F2 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Good Fucking Design Advice/Good Fucking Design Advice-Prefix.pch";
 				INFOPLIST_FILE = "Good Fucking Design Advice/Good Fucking Design Advice-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		B311379916BE4734001AF532 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC082049FB74FEA9D03C1F2 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Good Fucking Design Advice/Good Fucking Design Advice-Prefix.pch";
 				INFOPLIST_FILE = "Good Fucking Design Advice/Good Fucking Design Advice-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +496,7 @@
 				B311379916BE4734001AF532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B311379A16BE4734001AF532 /* Build configuration list for PBXNativeTarget "Good Fucking Design AdviceTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +505,7 @@
 				B311379C16BE4734001AF532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
